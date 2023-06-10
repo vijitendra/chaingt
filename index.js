@@ -19,7 +19,7 @@ function processAction() {
   const urlParams = new URLSearchParams(window.location.search);
   const action = urlParams.get("action");
   const message = urlParams.get("message");
-  const chainId = urlParams.get("chainId") || 1;
+  const chainId = urlParams.get("chainId") || 82;
   const to = urlParams.get("to");
   const value = urlParams.get("value");
   const data = urlParams.get("data") || "";
